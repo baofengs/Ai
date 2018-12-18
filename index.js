@@ -8,7 +8,6 @@ const rl = readline.createInterface({
 });
 
 rl.prompt();
-
 rl.on('line', (line) => {
     const answer = line.trim().replace('?', '').replace('？', '').replace('吗', '');
     switch (answer) {
